@@ -1,0 +1,118 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.dwa-header, #dwa-header-bg, .dwa-layout-cell, .dwa-layout-wrapper, .dwa-footer, .dwa-nav, #dwa-hmenu-bg, .dwa-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.dwa-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.dwa-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#dwa-header-bg 
+{
+   display: none;
+}
+
+.dwa-hmenu>li, .dwa-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.dwa-hmenu, ul.dwa-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#dwa-hmenu-bg 
+{
+   display: none;
+}
+
+ul.dwa-hmenu>li:first-child {
+   padding-right:0;
+}
+
+ul.dwa-hmenu ul, .desktop-nav ul.dwa-hmenu>li.ext:hover>a{
+   background-color: rgba(245, 245, 245, 0.95) !important;
+}
+
+.dwa-content-layout, .dwa-content-layout-row, .dwa-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.dwa-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.dwa-vmenu, ul.dwa-vmenu ul, ul.dwa-vmenu li{
+   zoom: 1;
+}
+
+ul.dwa-vmenu ul 
+{
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.dwa-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.dwa-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.dwa-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.dwa-postheadericons span{
+   zoom: 1;
+}
+.dwa-postcontent {
+   height: 1%;
+}
+
+.dwa-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.dwa-sidebar2 
+{
+   width: auto;
+   float:none;
+}
+
